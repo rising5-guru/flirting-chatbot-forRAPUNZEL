@@ -1,9 +1,6 @@
-# Flirting Chat Bot Web
+# Flirting Chat Bot Web for DEAR RAPUNZEL
 
 BOT IS LIVE AT : https://rising5-guru.github.io/flirting-chatbot-forRAPUNZEL
-
-![Flirting Chat Bot](![image](https://github.com/rising5-guru/flirting-chatbot-forRAPUNZEL/assets/154914265/0c1991d0-8378-4149-9d83-06c9bdb6b92a)
-)
 
 ## Overview
 
