@@ -4,20 +4,32 @@ body {
   padding: 0;
   background-color: #fce4ec;
   color: #333;
+  background-image: url(https://i.pinimg.com/originals/a1/c4/5f/a1c45f0c8dc75b1511509e20e2ea4910.jpg);
 }
+
 
 .chat-container {
   max-width: 400px;
   margin: 50px auto;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #9e8383;
+  border-radius: 90px;
+  box-shadow: 0 0 1000px rgb(255, 0, 183);
   overflow: hidden;
   padding: 20px;
-}
+  opacity: 0.8;
+  transition: all 1s ;
+  color :rgb(255, 254, 254)
+  }
+  .chat-container:hover {
+    box-shadow: 0 0 50px rgb(212, 0, 255);
+    opacity: 1;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color :rgb(0, 0, 0)
+  }
 
 h1 {
-  color: #ff4081;
+  color: #f60052;
   animation: fadeInUp 1s ease-out; /* Add animation to the heading */
 }
 
@@ -32,6 +44,11 @@ input {
   margin: 10px;
   border: 1px solid #ff4081;
   border-radius: 4px;
+  box-shadow: 0 0 10px rgba(144, 43, 165, 0.689);
+}
+input :hover {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgb(255, 10, 10);
 }
 
 button {
@@ -41,12 +58,14 @@ button {
   background-color: #ff4081;
   color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 20px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #ff80ab;
+  border-radius: 60px;
+  background-color: #ff0202;
+  box-shadow: 0 0 10px rgb(214, 10, 255);
 }
 
 @media screen and (max-width: 600px) {
